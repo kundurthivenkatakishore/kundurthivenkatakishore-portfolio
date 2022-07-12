@@ -102,19 +102,6 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.netlify && (
-                            <a
-                                href={socialsData.netlify}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )}
                     </div>
                 </div>
                 <img
