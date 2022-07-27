@@ -14,8 +14,8 @@ export const projectsData = [
         projectName: 'InShots News App',
         projectDesc: 'This project aims to provide all the updated news of various categories',
         tags: 'HTML, CSS, BootStrap, JavaScript',
-        frontend: 'https://github.com/kundurthivenkatakishore/Ecommerce-frontend',
-        backend:"https://github.com/kundurthivenkatakishore/Ecommerce-backend",
+        frontend: 'https://github.com/kundurthivenkatakishore/Inshorts-news-app',
+        backend:"https://github.com/kundurthivenkatakishore/Inshorts-news-app",
         demo: 'https://inshortsnewsapp.netlify.app/',
         image: "https://play-lh.googleusercontent.com/lvAGNNFIBMC3ZgS-JJcSwDzpSjOGMg7FGY14FrffJobLOed9-H2DiuZwknsIwVwKwTjo"
     },
