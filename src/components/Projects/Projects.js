@@ -60,7 +60,8 @@ function Projects() {
                                     name={project.projectName}
                                     desc={project.projectDesc}
                                     tags={project.tags}
-                                    code={project.code}
+                                    frontend={project.frontend}
+                                    backend={project.backend}
                                     demo={project.demo}
                                     image={project.image}
                                 />

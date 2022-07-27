@@ -14,45 +14,50 @@ export const projectsData = [
         projectName: 'InShots News App',
         projectDesc: 'This project aims to provide all the updated news of various categories',
         tags: 'HTML, CSS, BootStrap, JavaScript',
-        code: 'https://github.com/kundurthivenkatakishore/Inshorts-news-app',
+        frontend: 'https://github.com/kundurthivenkatakishore/Ecommerce-frontend',
+        backend:"https://github.com/kundurthivenkatakishore/Ecommerce-backend",
         demo: 'https://inshortsnewsapp.netlify.app/',
-        image: "https://play-lh.googleusercontent.com/hd-zjb0kvaVWufm0SEsant8zt0-HS_0tUMv79m2onY_wpkdrAArYV8oZ0vQPiMolpPIa=w600-h300-pc0xffffff-pd"
+        image: "https://play-lh.googleusercontent.com/lvAGNNFIBMC3ZgS-JJcSwDzpSjOGMg7FGY14FrffJobLOed9-H2DiuZwknsIwVwKwTjo"
     },
     {
         id: 2,
         projectName: 'Hotel Booking App',
         projectDesc: 'This project is a Hotel Booking System that alows users to Book a hotel in different cities',
         tags: 'HTML, CSS, BootStrap, Material-UI, JavaScript, React, Node, Express, MongoDB',
-        code: 'https://github.com/kundurthivenkatakishore/hotel-booking-app',
+        frontend: 'https://github.com/kundurthivenkatakishore/hotel-booking-frontend',
+        backend:"https://github.com/kundurthivenkatakishore/hotel-booking-backend",
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
+        image: "https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?ca=6&ce=1&s=1024x768"
     },
     {
         id: 3,
         projectName: 'Youtube-Clone',
         projectDesc: 'This is a Video Sharing App that allows users to view and upload videos',
         tags: 'HTML, CSS, Material Ui, JavaScript, React, Node, MongoDB, Express',
-        code: 'https://github.com/kundurthivenkatakishore/youtube-clone-frontend',
+        frontend: 'https://github.com/kundurthivenkatakishore/youtube-clone-frontend',
+        backend:"https://github.com/kundurthivenkatakishore/youtube-clone-backend",
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png"
     },
     {
         id: 4,
         projectName: 'Ecommerce App',
         projectDesc: 'This project involves the development of an Web Application of Ecommerce online booking shop',
         tags: 'HTML, CSS, JavaScript, React, Node, MongoDB, Express',
-        code: 'https://github.com/kundurthivenkatakishore/mern-ecommerce',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
+        frontend: 'https://github.com/kundurthivenkatakishore/Ecommerce-frontend',
+        backend:"https://github.com/kundurthivenkatakishore/Ecommerce-backend",
+        demo: 'https://ecommerce-mern1.netlify.app',
+        image: "https://thumbs.dreamstime.com/b/online-shopping-smartphone-two-young-women-buy-fashionable-clothes-shoes-accessories-store-via-internet-dresses-169905400.jpg"
     },
     {
         id: 5,
         projectName: 'Job Portal',
         projectDesc: 'This is a job portal where user can find jobs and apply for the jobs ',
         tags: 'HTML, CSS, JavaScript, React, Node, MongoDB, Express',
-        code: 'https://github.com/kundurthivenkatakishore/mern-ecommerce',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
+        frontend: 'https://github.com/kundurthivenkatakishore/job-portal-frontend',
+        backend:"https://github.com/kundurthivenkatakishore/job-portal-backend",
+        demo: 'https://job-portal-frontend1.vercel.app',
+        image: "https://dynamic.placementindia.com/blog_images/20171027131359_image1.jpg"
     }
 ]
 

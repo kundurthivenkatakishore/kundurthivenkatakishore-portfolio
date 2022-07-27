@@ -1,11 +1,11 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'ZPHS Dagadarthi',
-        course: 'Higher Secondary Education',
-        CGPA:'9.7',
-        startYear: '2011',
-        endYear: '2016'
+        institution: 'RGUKT,RK Valley Kadapa',
+        course: 'Bachelor of Technology',
+        CGPA:'8.1',
+        startYear: '2018',
+        endYear: '2022'
     },
     {
         id: 2,
@@ -17,10 +17,10 @@ export const educationData = [
     },
     {
         id: 3,
-        institution: 'RGUKT,RK Valley Kadapa',
-        course: 'Bachelor of Technology',
-        CGPA:'8.1',
-        startYear: '2018',
-        endYear: '2022'
+        institution: 'ZPHS Dagadarthi',
+        course: 'Higher Secondary Education',
+        CGPA:'9.7',
+        startYear: '2011',
+        endYear: '2016'
     },
 ]

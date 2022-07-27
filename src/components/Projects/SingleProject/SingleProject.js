@@ -1,13 +1,14 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { FaPlay, FaCode } from 'react-icons/fa';
+import { FaPlay, FaCode, FaGithub } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 import placeholder from '../../../assets/png/placeholder.png';
 import './SingleProject.css';
 
-function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
+function SingleProject({ id, name, desc, tags, frontend,backend,code, demo, image, theme }) {
     const useStyles = makeStyles((t) => ({
         iconBtn: {
             display: 'flex',
@@ -54,9 +55,9 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     <ListGroupItem>Node</ListGroupItem>
                 </ListGroup> */}
                 <Card.Body className='links'>
-                    <Card.Link href="#">Front-End</Card.Link>
-                    <Card.Link href="#">Back-End</Card.Link>
-                    <Card.Link href="#">Demo</Card.Link>
+                <Card.Link href={frontend} target="_blank">Front-End</Card.Link>
+                    <Card.Link href={backend} target="_blank">Back-End</Card.Link>
+                    <Card.Link href={demo} target="_blank">Demo</Card.Link>
                 </Card.Body>
             </Card>
         </div>
