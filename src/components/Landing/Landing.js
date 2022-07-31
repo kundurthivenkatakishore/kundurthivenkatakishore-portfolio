@@ -10,11 +10,8 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
-    FaBlogger,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -128,7 +125,7 @@ function Landing() {
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
                                 <a
-                                    href={'https://docs.google.com/document/d/1e4TQhT_FwO2cs2CqTcmF-rgqiMpld7HYNw6HPYCMi5g/edit'}
+                                    href={'https://drive.google.com/file/d/1zir4as5sHN-PgEI9LYM_jIE8sz3N3PB3/view?usp=sharing'}
                                     download='resume'
                                     target='_blank'
                                     rel='noreferrer'
