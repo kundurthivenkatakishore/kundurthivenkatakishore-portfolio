@@ -40,7 +40,6 @@ function SingleProject({ id, name, desc, tags, frontend,backend,code, demo, imag
         <div className="projects">
             <Card style={{ width: '20rem' }} className='card'>
                 <Card.Img className="cardimage" src={image ? image : placeholder} alt={name}/>
-                <Card.Body>
                     <Card.Title className='title'>{name}</Card.Title>
                     <Card.Text className='cardtext'>
                         {desc}
@@ -52,7 +51,6 @@ function SingleProject({ id, name, desc, tags, frontend,backend,code, demo, imag
                 <Card.Link href={frontend} target="_blank">Front-End</Card.Link>
                     <Card.Link href={backend} target="_blank">Back-End</Card.Link>
                     <Card.Link href={demo} target="_blank">Demo</Card.Link>
-                </Card.Body>
                 </Card.Body>
                 {/* <ListGroup className="list-group-flush">
                     <ListGroupItem>HTML, </ListGroupItem>
